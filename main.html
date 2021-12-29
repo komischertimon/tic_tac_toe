@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- <script src="https://kit.fontawesome.com/6e6da36d3a.js" crossorigin="anonymous"></script> -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <p>Tic Tac Toe</p>
+        </div>
+
+        <div class="field">
+            <div class="row">
+                <button id="btn0" onclick="NextTurn(this.id)"></button>
+                <button id="btn1" onclick="NextTurn(this.id)"></button>
+                <button id="btn2" onclick="NextTurn(this.id)"></button>
+            </div>
+            <div class="row">
+                <button id="btn3" onclick="NextTurn(this.id)"></button>
+                <button id="btn4" onclick="NextTurn(this.id)"></button>
+                <button id="btn5" onclick="NextTurn(this.id)"></button>
+            </div>
+            <div class="row">
+                <button id="btn6" onclick="NextTurn(this.id)"></button>
+                <button id="btn7" onclick="NextTurn(this.id)"></button>
+                <button id="btn8" onclick="NextTurn(this.id)"></button>
+            </div>
+        </div>
+        
+        <div class="winnerline-div">
+            <button onclick="newGame()"><i class="fas fa-redo-alt"></i></button>
+            <p id="winnerline"></p>
+        </div>
+        
+        <script src="index.js" async defer></script>
+    </body>
+</html>
