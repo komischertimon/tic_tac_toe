@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+title{
+    display: none;
+}
+.header{
+    margin-top: 5vh;
+    font-size: 60px;
+    
+}
+.field{
+    margin-top: 12vh;
+    display: flex;
+    flex-flow: column;
+}
+    .row{
+        display: flex;
+        flex-flow: row;
+    }
+        .row button{
+            justify-content: center;
+            align-items: center;
+            width: 128px;
+            height: 128px;
+            font-size: 90px;
+        }
+
+.winnerline-div{
+    display: flex;
+    flex-flow: column-reverse;
+    margin-top: 45px;
+    font-size: 32px;
+    font-weight: 700;
+}
+    .winnerline-div button{
+        height: 48px;
+        width: 48px;
+        margin-top: 10px;
+    }
+    #winnerline{
+        min-height: 38px;
+    }
